@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register Page</title>
+  </head>
+  <body bgcolor = "silver" >
+    <h1>Registration Form</h1>
+    <form action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post">
+      <table>
+        <tr>
+          <td><label for="firstName">First Name:</label></td>
+          <td><input type="text" name="firstName" id="firstName" required></td>
+        </tr>
+        <tr>
+          <td><label for="lastName">Last Name:</label></td>
+          <td><input type="text" name="lastName" id="lastName" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" name="email" id="email" required></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th>Gender:</th>
+          <td>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female" required>
+          </td>
+        </tr>
+        <tr>
+          <th>Items:</th>
+          <td>
+            <label for="Magnum Research BFR">Magnum Research BFR</label>
+            <input type="checkbox" name="item1" id="item1" value="item1">
+            <br>
+            <label for="Magnum Research Desert Eagle">Desert Eagle</label>
+            <input type="checkbox" name="item2" id="item2" value="item2">
+            <br>
+            
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td><label for="zipCode">Zip Code:</label></td>
+          <td><input type="text" name="zipCode" id="zipCode" maxlength="5" required></td>
+        </tr>
+        <tr>
+          <td><label for="state">State:</label></td>
+          <td>
+            <select name="state" id="state" required>
+              <option value="GA" selected>Georgia</option>
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+              <option value="AZ">Arizona</option>
+              <option value="AR">Arkansas</option>
+              <option value="CA">California</option>
+              <option value="CO">Colorado</option>
+              <option value="CT">Connecticut</option>
+              <option value="DE">Delaware</option>
+              <option value="FL">Florida</option>
+              <option value="HI">Hawaii</option>
+              <option value="ID">Idaho</option>
+              <option value="more">More states...</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="hidden" name="hiddenField" value="hidden value"></td>
+          <td><input type="submit" value="Submit"></td>
+        </tr>
+      </table>
+    </form>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<p> If you wish to go back to other pages click here.
+<a href="Home.html">Home</a>
+<a href="Detail.html">Details</a>
+<a href="items.html">Items for Sale</a>
+  </body>
+</html>
