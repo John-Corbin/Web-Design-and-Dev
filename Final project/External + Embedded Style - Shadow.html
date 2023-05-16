@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- This is my own work -->
+
+<html>
+<head>
+  <title>External Style - Shadows</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+    /* Embedded style sheet */
+    .Shadows {
+        box-shadow: 2px 2px 2px #888888;
+    }
+
+    img.flies,
+    img.time {
+        display: none;
+    }
+
+    .shadow {
+        color: blueviolet;
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+
+    .shadow img {
+        max-width: 300px;
+    }
+
+    .flies img,
+    .time img {
+        max-width: 200px;
+    }
+
+    .time {
+        color: darkorange;
+        font-size: 1.5em;
+    }
+
+    .flies {
+        color: forestgreen;
+        font-size: 1.5em;
+    }
+
+    .container {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+	body {
+  background: hsl(358, 100%, 77%);
+}
+  </style>
+</head>
+<body>
+
+<!-- Site navigation (breadcrumbs) -->
+<a href="Home Page.html">Home</a>
+
+<header>
+<h2>External Style - Shadows</h2>
+</header>
+<!-- Container -->
+<div class="container">
+
+<blockquote> "<span class="Time"> Time </span> <span class="flies"> flies </span> over us, but leaves its <span class="shadow"> shadow </span> behind." - Nathaniel Hawthorne </blockquote>
+
+  <br/>
+
+  <img id="shadow1" class="Shadows" src="SH1.jpg" />
+  <img id="shadow3" class="Shadows" src="SH3.jpg" />
+  <img id="shadow2" class="Shadows" src="SH2.jpg" />
+
+  <br/>
+
+  <img id="flies1" class="flies" src="flies1.jpg" />
+  <img id="flies3" class="flies" src="flies3.jpg" />
+  <img id="flies2" class="flies" src="flies2.jpg" />
+  
+  <br/>
+
+  <img id="time1" class="time" src="time1.jpg" />
+  <img id="time3" class="time" src="time3.jpg" />
+  <img id="time2" class="time" src="time2.jpg" />
+
+</div> <!-- Container -->
+
+<br/>
+
+<hr/>
+  <footer>
+    Designed by Johnston Corbin &#8226; May 2, 2023
+  </footer>
+</body>
+</html>

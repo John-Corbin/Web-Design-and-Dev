@@ -1,0 +1,43 @@
+/* This is my own work 
+ */
+
+
+/* Center the title of every page */
+h2
+{
+  text-align:center;
+}
+
+/* Hover style for Home link */
+nav a:hover {
+    text-decoration: none;
+    color: OrangeRed;
+}
+
+/* Style to change color, enlarge, and make bold a significant word in the quotation */
+blockquote {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: DarkSlateGray;
+}
+
+blockquote span {
+    color: OrangeRed;
+    font-size: 1.5em;
+}
+
+/* Style to make all images 300 pixels wide */
+img {
+    max-width: 300px;
+}
+
+/* Style to indent the first line of text of each paragraph by one em */
+p {
+    text-indent: 1em;
+}
+
+/* Style to set left and right margins of the <div> container */
+.container {
+    margin-left: 2em;
+    margin-right: 2em;
+}
